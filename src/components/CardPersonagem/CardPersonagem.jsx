@@ -4,7 +4,7 @@ import {Container, ContainerText} from './style';
 const CardPersonagem = ({personagem}) => {
     return (
         <Container>
-                <Link to={"/Personagem/" + personagem.id}>
+                <Link to={"/ricky-and-morty-react-api/Personagem/" + personagem.id}>
                     <img src={personagem.image}/>
                 </Link>
                 <ContainerText>
