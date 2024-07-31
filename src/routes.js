@@ -14,7 +14,7 @@ function MyRoutes() {
         <BrowserRouter> 
             <Header/>
             <Routes>
-                <Route path='/' element={<Home/>} exact />
+                <Route path='/ricky-and-morty-react-api' element={<Home/>} exact />
                 <Route path='/personagens' element={<Personagens/>} exact />
                 <Route path='/episodios' element={<Episodios/>} exact />
                 <Route path='/personagem/:id' element={<Personagem/>} exact />
