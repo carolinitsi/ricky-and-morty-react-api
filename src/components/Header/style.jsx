@@ -32,7 +32,7 @@ export const Navigation = styled.div`
         text-decoration: none;
 
         :hover{
-            background-color: red;
+            text-decoration: underline;
         }
     }
 
